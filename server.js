@@ -48,6 +48,10 @@ app.get("/reservas", (req, res) => {
   res.send(reservas)
 })
 
+app.get("/",  (req, res)  =>  {
+  res.send ("🔥 DM Geek Bar funcionando!")
+})
+
 // PORTA (IMPORTANTE PRO RENDER)
 const PORT = process.env.PORT || 3000
 
